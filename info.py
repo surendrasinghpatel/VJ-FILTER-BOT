@@ -37,7 +37,7 @@ REQUEST_TO_JOIN_MODE = bool(environ.get('REQUEST_TO_JOIN_MODE', True)) # Set Tru
 TRY_AGAIN_BTN = bool(environ.get('TRY_AGAIN_BTN', True)) # Set True Or False (This try again button is only for request to join fsub not for normal fsub)
 
 # This Is Force Subscribe Channel, also known as Auth Channel 
-auth_channel = environ.get('AUTH_CHANNEL', '-1002717119160') # give your force subscribe channel id here else leave it blank
+auth_channel = environ.get('AUTH_CHANNEL', '-1002459554188') # give your force subscribe channel id here else leave it blank
 AUTH_CHANNEL = int(auth_channel) if auth_channel and id_pattern.search(auth_channel) else None
 
 # This Channel Is For When User Request Any File Name With command or hashtag like - /request or #request
@@ -88,10 +88,10 @@ PUBLIC_FILE_CHANNEL = environ.get('PUBLIC_FILE_CHANNEL', '') # Public Channel Us
 
 
 # Links
-GRP_LNK = environ.get('GRP_LNK', 'https://t.me/+aty4S4tSK1E4MTc1')
-CHNL_LNK = environ.get('CHNL_LNK', 'https://t.me/southmoviesji')
+GRP_LNK = environ.get('GRP_LNK', 'https://t.me/+sAIZx9peDdMyZjU9')
+CHNL_LNK = environ.get('CHNL_LNK', 'https://t.me/+tPP6b2Qwl9w4MTQ1')
 SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'moviesandwebseriesji') # Support Chat Link Without https:// or @
-OWNER_LNK = environ.get('OWNER_LNK', 'https://t.me/southmoviesji')
+OWNER_LNK = environ.get('OWNER_LNK', 'https://t.me/+tPP6b2Qwl9w4MTQ1')
 
 # True Or False
 AI_SPELL_CHECK = bool(environ.get('AI_SPELL_CHECK', True))
